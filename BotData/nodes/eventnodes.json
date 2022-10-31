@@ -1,0 +1,818 @@
+{
+  "nodes": [
+    {
+      "type": "event",
+      "name": "User Joins Server",
+      "guid": "49ebbc23-2903-4f05-ab69-bc9ecb4f067e",
+      "variables": {
+        "user": "newuser"
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 663,
+      "y": 1529,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Any Message",
+      "guid": "49ebbc23-2903-4f05-ab69-bc9ecb4f8888",
+      "variables": {},
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 479,
+      "y": 1410,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "User Kicked",
+      "guid": "69ebbc23-2903-4f05-ab69-bc9ecb4f067e",
+      "variables": {
+        "user": "kickuser"
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 97,
+      "y": 1537,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "User Banned",
+      "guid": "77ebbc23-2003-4f05-ab69-bc9ecb4f067e",
+      "variables": {
+        "user": "banuser"
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 838,
+      "y": 1405,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Bot Initialization",
+      "guid": "0101bc23-2003-4f05-ab69-bc9ecb4f067e",
+      "variables": {},
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 482,
+      "y": 1501,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Channel Create",
+      "guid": "3333bc23-2993-4f05-ab69-bc9ecb4f067e",
+      "variables": {
+        "channel": "createdchannel"
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 286,
+      "y": 1400,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Channel Delete",
+      "guid": "3387bc23-2993-4f05-ab69-bc9ecb49877e",
+      "variables": {
+        "channel": "deletedchannel"
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 268,
+      "y": 1049,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Channel Pins Update",
+      "guid": "1287bc23-2993-dudu-ab69-bc9ecb49877e",
+      "variables": {
+        "channel": "updatepinschannel"
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 109,
+      "y": 1403,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Channel Update",
+      "guid": "0009zzv3-2993-dudu-ab69-bc9ecb49877e",
+      "variables": {
+        "channel": "updatechannel"
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 304,
+      "y": 1516,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Emoji Create",
+      "guid": "0008zzv3-2993-dudu-ab69-bc9hhb49877e",
+      "variables": {
+        "channel": "createdemoji"
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 100,
+      "y": 1050,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Emoji Delete",
+      "guid": "0028zzv3-2993-dudu-ab69-bc9hhb49877e",
+      "variables": {
+        "channel": "deletedemoji"
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 427,
+      "y": 1055,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Emoji Update",
+      "guid": "1128zzv3-2773-dudu-ab69-bc9hhb49877e",
+      "variables": {
+        "channel": "updatedemoji"
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 597,
+      "y": 1051,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Guild Ban Remove",
+      "guid": "0909zzv3-2773-dudu-ab69-bc9hhb49877e",
+      "variables": {
+        "channel": ""
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 93,
+      "y": 1168,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Guild Create",
+      "guid": "0909zzv3-2773-dudu-3456-bc9hhb49877e",
+      "variables": {
+        "channel": ""
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 273,
+      "y": 1166,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Guild Delete",
+      "guid": "0909zzv3-2773-dudu-ab69-bc9hhb49877e",
+      "variables": {
+        "channel": ""
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 449,
+      "y": 1152,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Guild Member Available",
+      "guid": "0909zzv3-2773-dudu-ab69-bc9hh020202e",
+      "variables": {
+        "channel": ""
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 633,
+      "y": 1150,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Guild Member Speaking",
+      "guid": "09uuuiv3-2773-dudu-ab69-bc9hh020202e",
+      "variables": {
+        "channel": ""
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 98,
+      "y": 1301,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Guild Member Update",
+      "guid": "0yyuuiv3-2773-dudu-ab69-bc9hh020202e",
+      "variables": {
+        "channel": ""
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 274,
+      "y": 1268,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Guild Unavailable",
+      "guid": "0yyuukkk-2773-dudu-ab69-bc9hh020202e",
+      "variables": {
+        "channel": ""
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 659,
+      "y": 1407,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Guild Update",
+      "guid": "0yyuukkk-2773-dudu-ab69-bc9h9890202e",
+      "variables": {
+        "channel": ""
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 641,
+      "y": 1278,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Message Delete",
+      "guid": "0y111112-2773-dudu-ab69-bc9h9890202e",
+      "variables": {
+        "channel": ""
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 464,
+      "y": 1262,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Message Update",
+      "guid": "0y111112-2773-dudu-ab69-bc9h9333202e",
+      "variables": {
+        "channel": ""
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 979,
+      "y": 1297,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Role Create",
+      "guid": "0y111112-2773-d44u-ab69-bc9h9333202e",
+      "variables": {
+        "channel": ""
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 799,
+      "y": 1059,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Role Delete",
+      "guid": "0y111112-2773-d44u-ab69-b5555633202e",
+      "variables": {
+        "channel": ""
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 808,
+      "y": 1152,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Role Update",
+      "guid": "0y111pg2-2773-d44u-ayu9-b5555633202e",
+      "variables": {
+        "channel": ""
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 1015,
+      "y": 1418,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Typing Start",
+      "guid": "0y1737g2-2773-d44u-ayu9-b5555633202e",
+      "variables": {
+        "channel": ""
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 810,
+      "y": 1271,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "User Update",
+      "guid": "0y1737g2-2773-d44u-ayu9-b5555tttyt2e",
+      "variables": {
+        "channel": ""
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 852,
+      "y": 1523,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Button Interaction",
+      "guid": "0y1700g2-2773-d44u-ayu9-b5555886yt2e",
+      "variables": {
+        "channel": ""
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 976,
+      "y": 1161,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Select Interaction",
+      "guid": "0y17qzg2-2773-pp4u-ayu9-b55q4886yt2e",
+      "variables": {
+        "channel": ""
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "inputs": [],
+      "x": 979,
+      "y": 1041,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Command Interaction",
+      "guid": "0y17nnm2-2773-pp4u-ayu9-b55q4886yt2e",
+      "variables": {
+        "channel": ""
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": [
+            "c3816250-7cf0-466b-99bc-b485c38827ae"
+          ]
+        }
+      ],
+      "inputs": [],
+      "x": 123,
+      "y": 241,
+      "perms": []
+    },
+    {
+      "type": "response",
+      "name": "trigger",
+      "guid": "c3816250-7cf0-466b-99bc-b485c38827ae",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "haste",
+          "connections": [
+            "69c2ff9a-a9d6-4a95-b7a9-9208aba56848"
+          ]
+        },
+        {
+          "label": "zephyr strike",
+          "connections": [
+            "d8971d7f-a42e-452f-9fbd-703ac1c9b92d"
+          ]
+        },
+        {
+          "label": "bardic inspiration",
+          "connections": [
+            "8f19706c-5b42-47ca-9fe1-63255abb8f5b"
+          ]
+        },
+        {
+          "label": "sneak attack",
+          "connections": [
+            "49d0cd96-089c-47ab-96ab-80d074a2d5aa"
+          ]
+        },
+        {
+          "label": "cover",
+          "connections": [
+            "22177c60-7b86-48a3-b088-796644982c67"
+          ]
+        },
+        {
+          "label": "heroes feast",
+          "connections": [
+            "ffa287f6-c866-4f1d-aebb-523766e90c7c"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "0y17nnm2-2773-pp4u-ayu9-b55q4886yt2e"
+        }
+      ],
+      "x": 300,
+      "y": 265,
+      "rtype": "Control",
+      "rsubtype": "Switch Case",
+      "formdata": [
+        "${tempVars.commandinteraction.commandName}"
+      ],
+      "formnames": [
+        "varname",
+        "switchvalue1",
+        "switchvalue2",
+        "switchvalue3",
+        "switchvalue4",
+        "switchvalue5",
+        "switchvalue6"
+      ],
+      "messageActionRows": [],
+      "valueFields": [
+        "haste",
+        "zephyr strike",
+        "bardic inspiration",
+        "sneak attack",
+        "cover",
+        "heroes feast"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "Haste",
+      "guid": "69c2ff9a-a9d6-4a95-b7a9-9208aba56848",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "c3816250-7cf0-466b-99bc-b485c38827ae"
+        }
+      ],
+      "x": 493,
+      "y": 220,
+      "rtype": "Interaction",
+      "rsubtype": "Reply To Interaction With Message",
+      "formdata": [
+        "${tempVars.commandinteraction}",
+        "https://cdn.discordapp.com/attachments/1020855159875698708/1036490292360122428/Haste.png"
+      ],
+      "formnames": [
+        "interactionobject",
+        "messageText"
+      ],
+      "messageActionRows": [],
+      "valueFields": []
+    },
+    {
+      "type": "response",
+      "name": "Zephyr Strike",
+      "guid": "d8971d7f-a42e-452f-9fbd-703ac1c9b92d",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "c3816250-7cf0-466b-99bc-b485c38827ae"
+        }
+      ],
+      "x": 492,
+      "y": 329,
+      "rtype": "Interaction",
+      "rsubtype": "Reply To Interaction With Message",
+      "formdata": [
+        "${tempVars.commandinteraction}",
+        "https://cdn.discordapp.com/attachments/1020855159875698708/1036490293563887726/ZephyrStrike.png"
+      ],
+      "formnames": [
+        "interactionobject",
+        "messageText"
+      ],
+      "messageActionRows": [],
+      "valueFields": []
+    },
+    {
+      "type": "response",
+      "name": "Bardic Inspiration",
+      "guid": "8f19706c-5b42-47ca-9fe1-63255abb8f5b",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "c3816250-7cf0-466b-99bc-b485c38827ae"
+        }
+      ],
+      "x": 492,
+      "y": 437,
+      "rtype": "Interaction",
+      "rsubtype": "Reply To Interaction With Message",
+      "formdata": [
+        "${tempVars.commandinteraction}",
+        "https://cdn.discordapp.com/attachments/1020855159875698708/1036490291684835328/BardicInspiration.png"
+      ],
+      "formnames": [
+        "interactionobject",
+        "messageText"
+      ],
+      "messageActionRows": [],
+      "valueFields": []
+    },
+    {
+      "type": "response",
+      "name": "Sneak Attack",
+      "guid": "49d0cd96-089c-47ab-96ab-80d074a2d5aa",
+      "reactionFields": [],
+      "embedfields": [],
+      "saveToVariable": "",
+      "saveToVariableType": "temp",
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "c3816250-7cf0-466b-99bc-b485c38827ae"
+        }
+      ],
+      "x": 667,
+      "y": 334,
+      "rtype": "Interaction",
+      "rsubtype": "Reply To Interaction With Message",
+      "formdata": [
+        "${tempVars.commandinteraction}",
+        "https://cdn.discordapp.com/attachments/1020855159875698708/1036490293035413624/SneakAttack.png"
+      ],
+      "formnames": [
+        "interactionobject",
+        "messageText"
+      ],
+      "messageActionRows": [],
+      "valueFields": []
+    },
+    {
+      "type": "response",
+      "name": "Cover",
+      "guid": "22177c60-7b86-48a3-b088-796644982c67",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "c3816250-7cf0-466b-99bc-b485c38827ae"
+        }
+      ],
+      "x": 666,
+      "y": 222,
+      "rtype": "Interaction",
+      "rsubtype": "Reply To Interaction With Message",
+      "formdata": [
+        "${tempVars.commandinteraction}",
+        "https://cdn.discordapp.com/attachments/1020855159875698708/1036490292024586302/Cover.png"
+      ],
+      "formnames": [
+        "interactionobject",
+        "messageText"
+      ],
+      "messageActionRows": [],
+      "valueFields": []
+    },
+    {
+      "type": "response",
+      "name": "heroes feast",
+      "guid": "ffa287f6-c866-4f1d-aebb-523766e90c7c",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "c3816250-7cf0-466b-99bc-b485c38827ae"
+        }
+      ],
+      "x": 666,
+      "y": 444,
+      "rtype": "Interaction",
+      "rsubtype": "Reply To Interaction With Message",
+      "formdata": [
+        "${tempVars.commandinteraction}",
+        "https://cdn.discordapp.com/attachments/1020855159875698708/1036490292704051290/HeroesFeast.png"
+      ],
+      "formnames": [
+        "interactionobject",
+        "messageText"
+      ],
+      "messageActionRows": [],
+      "valueFields": []
+    }
+  ]
+}
