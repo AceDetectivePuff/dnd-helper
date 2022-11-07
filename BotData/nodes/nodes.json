@@ -1,25 +1,47 @@
 {
   "nodes": [
     {
+      "type": "slash",
+      "name": "haste",
+      "guid": "a7ad17d1-8cfc-4f17-9a7e-06f9cfc7c9c2",
+      "outputs": [],
+      "inputs": [],
+      "x": 23,
+      "y": 307,
+      "description": "What does Haste do again?",
+      "options": []
+    },
+    {
+      "type": "slash",
+      "name": "cover",
+      "guid": "c6904fd1-aa2f-4515-806a-9dc019f692fb",
+      "outputs": [],
+      "inputs": [],
+      "x": 26,
+      "y": 159,
+      "description": "What does Cover do again?",
+      "options": []
+    },
+    {
       "type": "command",
       "name": "help",
-      "guid": "7942fe4c-dffa-4146-8cab-d254b3d80d5d",
+      "guid": "7d039c18-8eae-4e8f-b98c-274183fdf60b",
       "outputs": [
         {
           "label": "responses",
           "connections": [
-            "37eda463-a170-44f9-af54-61378ffc9294"
+            "0f9b5d31-128f-453a-918d-319037a44836"
           ]
         }
       ],
       "inputs": [],
-      "x": 148,
-      "y": 188
+      "x": 592,
+      "y": 171
     },
     {
       "type": "response",
-      "name": "help menu",
-      "guid": "37eda463-a170-44f9-af54-61378ffc9294",
+      "name": "Help!",
+      "guid": "0f9b5d31-128f-453a-918d-319037a44836",
       "reactionFields": [],
       "embedfields": [],
       "saveToVariable": "",
@@ -33,42 +55,22 @@
       "inputs": [
         {
           "label": "trigger",
-          "id": "7942fe4c-dffa-4146-8cab-d254b3d80d5d"
+          "id": "7d039c18-8eae-4e8f-b98c-274183fdf60b"
         }
       ],
-      "x": 345,
-      "y": 182,
+      "x": 826,
+      "y": 175,
       "rtype": "Message",
-      "rsubtype": "Send Embed",
+      "rsubtype": "Send Message",
       "formdata": [
-        "${dbsVars.CommandChannel.id}",
-        "D40606",
-        "Available Reminders!",
-        "",
-        "Bot Name Here",
-        "",
-        "",
-        "/haste\n/zephyr strike\n/bardic inspiration\n/sneak attack\n/cover\n/heroes feast",
-        "",
-        "",
-        "Ping <@340285845632319499> if you need help!",
-        "false",
+        "${dbsVars.DefaultChannel.id}",
+        "I can tell you about the following items:\n\n/cover\n/heroesfeast\n/haste\n/bardicinspiration\n/zephyrstrike\n/sneakattack",
         "",
         "temp"
       ],
       "formnames": [
-        "channelname",
-        "color",
-        "title",
-        "url",
-        "authorname",
-        "authorimageurl",
-        "authorlink",
-        "description",
-        "thumbnail",
-        "image",
-        "footer",
-        "timestamp",
+        "channelName",
+        "messageText",
         "saveToVariable",
         "saveToVariableType"
       ],
@@ -77,68 +79,46 @@
     },
     {
       "type": "slash",
-      "name": "haste",
-      "guid": "a7ad17d1-8cfc-4f17-9a7e-06f9cfc7c9c2",
+      "name": "heroesfeast",
+      "guid": "406b3e55-4d0b-4e85-af3a-48bb68d2f5e8",
       "outputs": [],
       "inputs": [],
-      "x": 149,
-      "y": 328,
-      "description": "What does Haste do again?",
+      "x": 220,
+      "y": 163,
+      "description": "What does Heroes' Feast do again?",
       "options": []
     },
     {
       "type": "slash",
-      "name": "zephyr strike",
-      "guid": "85a96395-d064-4fa5-b096-40b3b6360c7b",
+      "name": "bardicinspiration",
+      "guid": "3c129f2f-78c3-4f6c-962a-4edb748c8279",
       "outputs": [],
       "inputs": [],
-      "x": 151,
-      "y": 473,
-      "description": "What does Zephyr Strike do again?",
-      "options": []
-    },
-    {
-      "type": "slash",
-      "name": "bardic inspiration",
-      "guid": "78d9bd3f-0499-4a69-858e-4b77445e6d8c",
-      "outputs": [],
-      "inputs": [],
-      "x": 330,
-      "y": 330,
+      "x": 240,
+      "y": 313,
       "description": "What does Bardic Inspiration do again?",
       "options": []
     },
     {
       "type": "slash",
-      "name": "sneak attack",
-      "guid": "3ada9136-4c3f-4224-8974-b3597342118e",
+      "name": "sneakattack",
+      "guid": "c6bec449-62ae-459d-801e-2a46a0f1ea4a",
       "outputs": [],
       "inputs": [],
-      "x": 328,
-      "y": 502,
+      "x": 228,
+      "y": 466,
       "description": "What does Sneak Attack do again?",
       "options": []
     },
     {
       "type": "slash",
-      "name": "cover",
-      "guid": "c6904fd1-aa2f-4515-806a-9dc019f692fb",
+      "name": "zephyrstrike",
+      "guid": "c437a791-7d93-4594-92e3-ee8ba8a2bc6b",
       "outputs": [],
       "inputs": [],
-      "x": 497,
-      "y": 334,
-      "description": "What does Cover do again?",
-      "options": []
-    },
-    {
-      "type": "slash",
-      "name": "heroes feast",
-      "guid": "16cbe357-1df0-4f0f-9151-5a61d1f322c1",
-      "outputs": [],
-      "inputs": [],
-      "x": 501,
-      "y": 494,
-      "description": "What does Heroes' Feast do again?",
+      "x": 29,
+      "y": 467,
+      "description": "What does Zephyr Strike do again?",
       "options": []
     }
   ]

@@ -237,44 +237,14 @@
           "category": "Control",
           "type": "Switch Case",
           "valueActions": {
-            "haste": [
-              {
-                "name": "Haste",
-                "category": "Interaction",
-                "type": "Reply To Interaction With Message",
-                "messageActionRows": [],
-                "interactionobject": "${tempVars.commandinteraction}",
-                "messagetext": "https://cdn.discordapp.com/attachments/1020855159875698708/1036490292360122428/Haste.png"
-              }
-            ],
-            "zephyr strike": [
-              {
-                "name": "Zephyr Strike",
-                "category": "Interaction",
-                "type": "Reply To Interaction With Message",
-                "messageActionRows": [],
-                "interactionobject": "${tempVars.commandinteraction}",
-                "messagetext": "https://cdn.discordapp.com/attachments/1020855159875698708/1036490293563887726/ZephyrStrike.png"
-              }
-            ],
-            "bardic inspiration": [
+            "bardicinspiration": [
               {
                 "name": "Bardic Inspiration",
                 "category": "Interaction",
                 "type": "Reply To Interaction With Message",
                 "messageActionRows": [],
                 "interactionobject": "${tempVars.commandinteraction}",
-                "messagetext": "https://cdn.discordapp.com/attachments/1020855159875698708/1036490291684835328/BardicInspiration.png"
-              }
-            ],
-            "sneak attack": [
-              {
-                "name": "Sneak Attack",
-                "category": "Interaction",
-                "type": "Reply To Interaction With Message",
-                "messageActionRows": [],
-                "interactionobject": "${tempVars.commandinteraction}",
-                "messagetext": "https://cdn.discordapp.com/attachments/1020855159875698708/1036490293035413624/SneakAttack.png"
+                "messagetext": "https://cdn.discordapp.com/attachments/1020855159875698708/1038669287684050984/bardicinspiration.png"
               }
             ],
             "cover": [
@@ -284,17 +254,47 @@
                 "type": "Reply To Interaction With Message",
                 "messageActionRows": [],
                 "interactionobject": "${tempVars.commandinteraction}",
-                "messagetext": "https://cdn.discordapp.com/attachments/1020855159875698708/1036490292024586302/Cover.png"
+                "messagetext": "https://cdn.discordapp.com/attachments/1020855159875698708/1038669288032182272/cover.png"
               }
             ],
-            "heroes feast": [
+            "haste": [
+              {
+                "name": "Haste",
+                "category": "Interaction",
+                "type": "Reply To Interaction With Message",
+                "messageActionRows": [],
+                "interactionobject": "${tempVars.commandinteraction}",
+                "messagetext": "https://cdn.discordapp.com/attachments/1020855159875698708/1038669288367738920/haste.png"
+              }
+            ],
+            "heroesfeast": [
               {
                 "name": "heroes feast",
                 "category": "Interaction",
                 "type": "Reply To Interaction With Message",
                 "messageActionRows": [],
                 "interactionobject": "${tempVars.commandinteraction}",
-                "messagetext": "https://cdn.discordapp.com/attachments/1020855159875698708/1036490292704051290/HeroesFeast.png"
+                "messagetext": "https://cdn.discordapp.com/attachments/1020855159875698708/1038669288631963669/heroesfeast.png"
+              }
+            ],
+            "sneakattack": [
+              {
+                "name": "Sneak Attack",
+                "category": "Interaction",
+                "type": "Reply To Interaction With Message",
+                "messageActionRows": [],
+                "interactionobject": "${tempVars.commandinteraction}",
+                "messagetext": "https://cdn.discordapp.com/attachments/1020855159875698708/1038669288904597614/sneakattack.png"
+              }
+            ],
+            "zephyrstrike": [
+              {
+                "name": "Zephyr Strike",
+                "category": "Interaction",
+                "type": "Reply To Interaction With Message",
+                "messageActionRows": [],
+                "interactionobject": "${tempVars.commandinteraction}",
+                "messagetext": "https://cdn.discordapp.com/attachments/1020855159875698708/1038669289152073768/zephyrstrike.png"
               }
             ]
           },

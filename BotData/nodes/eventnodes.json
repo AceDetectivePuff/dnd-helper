@@ -529,7 +529,7 @@
         {
           "label": "responses",
           "connections": [
-            "c3816250-7cf0-466b-99bc-b485c38827ae"
+            "beca0cca-2cf8-4baf-a21a-b460f9abacaa"
           ]
         }
       ],
@@ -537,82 +537,6 @@
       "x": 123,
       "y": 241,
       "perms": []
-    },
-    {
-      "type": "response",
-      "name": "trigger",
-      "guid": "c3816250-7cf0-466b-99bc-b485c38827ae",
-      "reactionFields": [],
-      "embedfields": [],
-      "outputs": [
-        {
-          "label": "haste",
-          "connections": [
-            "69c2ff9a-a9d6-4a95-b7a9-9208aba56848"
-          ]
-        },
-        {
-          "label": "zephyr strike",
-          "connections": [
-            "d8971d7f-a42e-452f-9fbd-703ac1c9b92d"
-          ]
-        },
-        {
-          "label": "bardic inspiration",
-          "connections": [
-            "8f19706c-5b42-47ca-9fe1-63255abb8f5b"
-          ]
-        },
-        {
-          "label": "sneak attack",
-          "connections": [
-            "49d0cd96-089c-47ab-96ab-80d074a2d5aa"
-          ]
-        },
-        {
-          "label": "cover",
-          "connections": [
-            "22177c60-7b86-48a3-b088-796644982c67"
-          ]
-        },
-        {
-          "label": "heroes feast",
-          "connections": [
-            "ffa287f6-c866-4f1d-aebb-523766e90c7c"
-          ]
-        }
-      ],
-      "inputs": [
-        {
-          "label": "trigger",
-          "id": "0y17nnm2-2773-pp4u-ayu9-b55q4886yt2e"
-        }
-      ],
-      "x": 300,
-      "y": 265,
-      "rtype": "Control",
-      "rsubtype": "Switch Case",
-      "formdata": [
-        "${tempVars.commandinteraction.commandName}"
-      ],
-      "formnames": [
-        "varname",
-        "switchvalue1",
-        "switchvalue2",
-        "switchvalue3",
-        "switchvalue4",
-        "switchvalue5",
-        "switchvalue6"
-      ],
-      "messageActionRows": [],
-      "valueFields": [
-        "haste",
-        "zephyr strike",
-        "bardic inspiration",
-        "sneak attack",
-        "cover",
-        "heroes feast"
-      ]
     },
     {
       "type": "response",
@@ -629,16 +553,16 @@
       "inputs": [
         {
           "label": "trigger",
-          "id": "c3816250-7cf0-466b-99bc-b485c38827ae"
+          "id": "beca0cca-2cf8-4baf-a21a-b460f9abacaa"
         }
       ],
-      "x": 493,
-      "y": 220,
+      "x": 495,
+      "y": 391,
       "rtype": "Interaction",
       "rsubtype": "Reply To Interaction With Message",
       "formdata": [
         "${tempVars.commandinteraction}",
-        "https://cdn.discordapp.com/attachments/1020855159875698708/1036490292360122428/Haste.png"
+        "https://cdn.discordapp.com/attachments/1020855159875698708/1038669288367738920/haste.png"
       ],
       "formnames": [
         "interactionobject",
@@ -662,16 +586,16 @@
       "inputs": [
         {
           "label": "trigger",
-          "id": "c3816250-7cf0-466b-99bc-b485c38827ae"
+          "id": "beca0cca-2cf8-4baf-a21a-b460f9abacaa"
         }
       ],
-      "x": 492,
-      "y": 329,
+      "x": 665,
+      "y": 379,
       "rtype": "Interaction",
       "rsubtype": "Reply To Interaction With Message",
       "formdata": [
         "${tempVars.commandinteraction}",
-        "https://cdn.discordapp.com/attachments/1020855159875698708/1036490293563887726/ZephyrStrike.png"
+        "https://cdn.discordapp.com/attachments/1020855159875698708/1038669289152073768/zephyrstrike.png"
       ],
       "formnames": [
         "interactionobject",
@@ -695,16 +619,16 @@
       "inputs": [
         {
           "label": "trigger",
-          "id": "c3816250-7cf0-466b-99bc-b485c38827ae"
+          "id": "beca0cca-2cf8-4baf-a21a-b460f9abacaa"
         }
       ],
-      "x": 492,
-      "y": 437,
+      "x": 493,
+      "y": 140,
       "rtype": "Interaction",
       "rsubtype": "Reply To Interaction With Message",
       "formdata": [
         "${tempVars.commandinteraction}",
-        "https://cdn.discordapp.com/attachments/1020855159875698708/1036490291684835328/BardicInspiration.png"
+        "https://cdn.discordapp.com/attachments/1020855159875698708/1038669287684050984/bardicinspiration.png"
       ],
       "formnames": [
         "interactionobject",
@@ -719,8 +643,6 @@
       "guid": "49d0cd96-089c-47ab-96ab-80d074a2d5aa",
       "reactionFields": [],
       "embedfields": [],
-      "saveToVariable": "",
-      "saveToVariableType": "temp",
       "outputs": [
         {
           "label": "next response",
@@ -730,16 +652,16 @@
       "inputs": [
         {
           "label": "trigger",
-          "id": "c3816250-7cf0-466b-99bc-b485c38827ae"
+          "id": "beca0cca-2cf8-4baf-a21a-b460f9abacaa"
         }
       ],
-      "x": 667,
-      "y": 334,
+      "x": 662,
+      "y": 261,
       "rtype": "Interaction",
       "rsubtype": "Reply To Interaction With Message",
       "formdata": [
         "${tempVars.commandinteraction}",
-        "https://cdn.discordapp.com/attachments/1020855159875698708/1036490293035413624/SneakAttack.png"
+        "https://cdn.discordapp.com/attachments/1020855159875698708/1038669288904597614/sneakattack.png"
       ],
       "formnames": [
         "interactionobject",
@@ -763,16 +685,16 @@
       "inputs": [
         {
           "label": "trigger",
-          "id": "c3816250-7cf0-466b-99bc-b485c38827ae"
+          "id": "beca0cca-2cf8-4baf-a21a-b460f9abacaa"
         }
       ],
-      "x": 666,
-      "y": 222,
+      "x": 494,
+      "y": 277,
       "rtype": "Interaction",
       "rsubtype": "Reply To Interaction With Message",
       "formdata": [
         "${tempVars.commandinteraction}",
-        "https://cdn.discordapp.com/attachments/1020855159875698708/1036490292024586302/Cover.png"
+        "https://cdn.discordapp.com/attachments/1020855159875698708/1038669288032182272/cover.png"
       ],
       "formnames": [
         "interactionobject",
@@ -796,16 +718,16 @@
       "inputs": [
         {
           "label": "trigger",
-          "id": "c3816250-7cf0-466b-99bc-b485c38827ae"
+          "id": "beca0cca-2cf8-4baf-a21a-b460f9abacaa"
         }
       ],
-      "x": 666,
-      "y": 444,
+      "x": 663,
+      "y": 141,
       "rtype": "Interaction",
       "rsubtype": "Reply To Interaction With Message",
       "formdata": [
         "${tempVars.commandinteraction}",
-        "https://cdn.discordapp.com/attachments/1020855159875698708/1036490292704051290/HeroesFeast.png"
+        "https://cdn.discordapp.com/attachments/1020855159875698708/1038669288631963669/heroesfeast.png"
       ],
       "formnames": [
         "interactionobject",
@@ -813,6 +735,82 @@
       ],
       "messageActionRows": [],
       "valueFields": []
+    },
+    {
+      "type": "response",
+      "name": "trigger",
+      "guid": "beca0cca-2cf8-4baf-a21a-b460f9abacaa",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "bardicinspiration",
+          "connections": [
+            "8f19706c-5b42-47ca-9fe1-63255abb8f5b"
+          ]
+        },
+        {
+          "label": "cover",
+          "connections": [
+            "22177c60-7b86-48a3-b088-796644982c67"
+          ]
+        },
+        {
+          "label": "haste",
+          "connections": [
+            "69c2ff9a-a9d6-4a95-b7a9-9208aba56848"
+          ]
+        },
+        {
+          "label": "heroesfeast",
+          "connections": [
+            "ffa287f6-c866-4f1d-aebb-523766e90c7c"
+          ]
+        },
+        {
+          "label": "sneakattack",
+          "connections": [
+            "49d0cd96-089c-47ab-96ab-80d074a2d5aa"
+          ]
+        },
+        {
+          "label": "zephyrstrike",
+          "connections": [
+            "d8971d7f-a42e-452f-9fbd-703ac1c9b92d"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "0y17nnm2-2773-pp4u-ayu9-b55q4886yt2e"
+        }
+      ],
+      "x": 289,
+      "y": 258,
+      "rtype": "Control",
+      "rsubtype": "Switch Case",
+      "formdata": [
+        "${tempVars.commandinteraction.commandName}"
+      ],
+      "formnames": [
+        "varname",
+        "switchvalue1",
+        "switchvalue2",
+        "switchvalue3",
+        "switchvalue4",
+        "switchvalue5",
+        "switchvalue6"
+      ],
+      "messageActionRows": [],
+      "valueFields": [
+        "bardicinspiration",
+        "cover",
+        "haste",
+        "heroesfeast",
+        "sneakattack",
+        "zephyrstrike"
+      ]
     }
   ]
 }

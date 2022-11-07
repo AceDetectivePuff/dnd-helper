@@ -1,48 +1,8 @@
 {
   "command": [
     {
-      "name": "help",
-      "actions": [
-        {
-          "name": "help menu",
-          "category": "Message",
-          "type": "Send Embed",
-          "messageActionRows": [],
-          "channelname": "${dbsVars.CommandChannel.id}",
-          "color": "D40606",
-          "title": "Available Reminders!",
-          "url": "",
-          "authorname": "Bot Name Here",
-          "authorimageurl": "",
-          "authorlink": "",
-          "description": "/haste\n/zephyr strike\n/bardic inspiration\n/sneak attack\n/cover\n/heroes feast",
-          "thumbnail": "",
-          "image": "",
-          "footer": "Ping <@340285845632319499> if you need help!",
-          "timestamp": "false",
-          "savetovariable": "",
-          "savetovariabletype": "temp"
-        }
-      ]
-    },
-    {
       "name": "haste",
       "description": "What does Haste do again?",
-      "options": []
-    },
-    {
-      "name": "zephyr strike",
-      "description": "What does Zephyr Strike do again?",
-      "options": []
-    },
-    {
-      "name": "bardic inspiration",
-      "description": "What does Bardic Inspiration do again?",
-      "options": []
-    },
-    {
-      "name": "sneak attack",
-      "description": "What does Sneak Attack do again?",
       "options": []
     },
     {
@@ -51,8 +11,38 @@
       "options": []
     },
     {
-      "name": "heroes feast",
+      "name": "help",
+      "actions": [
+        {
+          "name": "Help!",
+          "category": "Message",
+          "type": "Send Message",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.DefaultChannel.id}",
+          "messagetext": "I can tell you about the following items:\n\n/cover\n/heroesfeast\n/haste\n/bardicinspiration\n/zephyrstrike\n/sneakattack",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "heroesfeast",
       "description": "What does Heroes' Feast do again?",
+      "options": []
+    },
+    {
+      "name": "bardicinspiration",
+      "description": "What does Bardic Inspiration do again?",
+      "options": []
+    },
+    {
+      "name": "sneakattack",
+      "description": "What does Sneak Attack do again?",
+      "options": []
+    },
+    {
+      "name": "zephyrstrike",
+      "description": "What does Zephyr Strike do again?",
       "options": []
     }
   ]
