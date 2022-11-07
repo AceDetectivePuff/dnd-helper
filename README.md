@@ -5,11 +5,11 @@ Just a little bot that I've made with [Discord Bot Studio](https://discordbotstu
 
 I couldn't get regular commands to work yet (lol) but it responds to the following slash commands:
 
-/bardicinspiration
-/cover
-/haste
-/heroesfeast
-/sneakattack
-/zephyrstrike
+- /bardicinspiration
+- /cover
+- /haste
+- /heroesfeast
+- /sneakattack
+- /zephyrstrike
 
 If you'd like to suggest more commands, reach out to me on [Reddit](https://reddit.com/u/Team-Hufflepuff) or on Discord: Team-Hufflepuff#5555.
