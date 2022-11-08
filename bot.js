@@ -5,6 +5,7 @@ const path = require("path");
 const AntiSpam = require("discord-anti-spam");
 const winston = require("winston");
 const flatted = require("flatted");
+__dirname = path.resolve();
 
 console.log(process.version);
 
